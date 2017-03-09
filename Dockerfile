@@ -11,7 +11,6 @@ ENV NODE_ENV production
 RUN npm install --production
 
 # Bind Port
-EXPOSE 9000
-EXPOSE 9001
+EXPOSE 8080
 
 CMD ["npm", "start"]
